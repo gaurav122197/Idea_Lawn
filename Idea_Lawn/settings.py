@@ -32,8 +32,8 @@ ALLOWED_HOSTS = ['*']
 
 INSTALLED_APPS = (
     'aboutUs.apps.AboutusConfig',
-    'login.apps.LoginConfig',
     'home.apps.HomeConfig',
+    'startPage.apps.StartpageConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -104,7 +104,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-LOGIN_REDIRECT_URL = '/'
 
-# Activate Django-Heroku.
-django_heroku.settings(locals())
+
+
